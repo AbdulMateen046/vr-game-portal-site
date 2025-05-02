@@ -15,8 +15,8 @@ const Navbar = () => {
     <header className="fixed w-full top-0 z-50 bg-background/80 backdrop-blur-md border-b border-vr-purple/20">
       <div className="container mx-auto flex items-center justify-between py-4">
         <Link to="/" className="flex items-center space-x-2">
-          <Gamepad className="text-vr-purple h-8 w-8" />
-          <span className="font-bold text-xl sm:text-2xl vr-gradient-text">VRGameStudio</span>
+        <img src="/logo.png" alt="Logo" className="h-8 w-8 object-contain" />
+          <span className="font-bold text-xl sm:text-2xl vr-gradient-text">Vhype</span>
         </Link>
         
         {/* Desktop Navigation */}

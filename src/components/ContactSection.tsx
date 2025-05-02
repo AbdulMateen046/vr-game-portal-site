@@ -75,7 +75,7 @@ const ContactSection = () => {
                     Our friendly team is here to help
                   </p>
                   <a href="mailto:contact@vrgamestudio.com" className="text-vr-purple hover:underline">
-                    contact@vrgamestudio.com
+                    info@vhype.tech
                   </a>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const ContactSection = () => {
                     Mon-Fri from 9am to 5pm
                   </p>
                   <a href="tel:+11234567890" className="text-vr-purple hover:underline">
-                    +1 (123) 456-7890
+                    +92 307 776558
                   </a>
                 </div>
               </div>
@@ -109,8 +109,8 @@ const ContactSection = () => {
                     Come say hello at our office
                   </p>
                   <p className="text-gray-300">
-                    123 VR Street, Tech Hub<br />
-                    San Francisco, CA 94103
+                    Tricon Tower, Gulberg II<br />
+                    Lahore, Punjab
                   </p>
                 </div>
               </div>

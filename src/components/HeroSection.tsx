@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Gamepad } from "lucide-react";
 
@@ -14,7 +13,7 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-vr-purple/10 border border-vr-purple/20 mb-6">
-              <Gamepad className="h-4 w-4 text-vr-purple" />
+            <img src="/logo.png" alt="Logo" className="h-8 w-8 object-contain" />
               <span className="text-sm font-medium">Virtual Reality Game Development</span>
             </div>
             
@@ -31,8 +30,7 @@ const HeroSection = () => {
               <Button className="vr-button" asChild>
                 <a href="#game">Explore Our Game</a>
               </Button>
-              
-              <Button variant="outline" className="border-vr-purple/30 hover:border-vr-purple text-vr-purple hover:bg-vr-purple/10" asChild>
+               <Button variant="outline" className="border-vr-purple/30 hover:border-vr-purple text-vr-purple hover:bg-vr-purple/10" asChild>
                 <a href="#contact">Get In Touch</a>
               </Button>
             </div>
@@ -41,7 +39,7 @@ const HeroSection = () => {
           <div className="relative animate-float">
             <div className="absolute inset-0 bg-vr-purple/20 rounded-full blur-3xl animate-pulse-glow"></div>
             <img 
-              src="https://images.unsplash.com/photo-1525800189582-3a994e9e29c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+              src="https://media.istockphoto.com/id/1369437948/photo/man-interacting-with-virtual-reality-in-vr-headset.jpg?s=612x612&w=0&k=20&c=uU7IvM1ToG_Q7Q3nGRjRQJpqj0ikp7SRTd_9YaryePk=  " 
               alt="Person wearing VR headset" 
               className="rounded-2xl object-cover w-full h-[500px] relative z-10"
             />

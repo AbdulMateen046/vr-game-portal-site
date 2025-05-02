@@ -69,7 +69,7 @@ const PrivacyPolicy = () => {
               <p className="text-gray-300">
                 If you have any questions about this privacy policy or our data practices, please contact us at:
               </p>
-              <p className="text-vr-purple mt-2">privacy@vrgamestudio.com</p>
+              <p className="text-vr-purple mt-2">privacy@vhype.tech</p>
             </div>
             
             <div className="pt-4 border-t border-vr-purple/20">

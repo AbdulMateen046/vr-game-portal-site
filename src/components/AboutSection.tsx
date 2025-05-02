@@ -12,7 +12,7 @@ const AboutSection = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            VR Innovators <span className="vr-gradient-text">Since 2018</span>
+            VR Innovators <span className="vr-gradient-text">Since 2023</span>
           </h2>
           
           <p className="text-gray-300">
@@ -75,7 +75,7 @@ const AboutSection = () => {
             
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-12">
               <div className="text-center">
-                <div className="text-3xl font-bold vr-gradient-text">6+</div>
+                <div className="text-3xl font-bold vr-gradient-text">2+</div>
                 <p className="text-sm text-gray-400 mt-1">Years Experience</p>
               </div>
               
