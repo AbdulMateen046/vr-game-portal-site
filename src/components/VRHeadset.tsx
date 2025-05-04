@@ -4,6 +4,7 @@ import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
 
 export function VRHeadset({ scrollY }: { scrollY: number }) {
+  // Use a more specific type for the mesh ref
   const mesh = useRef<THREE.Mesh>(null);
   
   // Use scrollY to control rotation
